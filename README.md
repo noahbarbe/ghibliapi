@@ -68,3 +68,5 @@ Calling this resource will respond with the following object:
 
 ## Resources
 This API was built using [JSON Server](https://github.com/typicode/json-server), [ReDoc](https://github.com/Rebilly/ReDoc), and looking through [swapi.co](https://github.com/phalt/swapi)
+
+## Group
