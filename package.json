@@ -1,5 +1,5 @@
 {
-  "name": "StudioGhibliAPI",
+  "name": "studioghibliapi",
   "version": "1.0.0",
   "description": "A simple API for Studio Ghibli resources",
   "keywords": [
@@ -16,11 +16,12 @@
   "homepage": "https://ghibliapi.herokuapp.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/janaipakos/ghibliapi.git"
+    "url": "git+https://github.com/janaipakos/ghibliapi.git"
   },
   "scripts": {
-    "start": "node index",
-    "test": "node test/app"
+    "start": "node app.js",
+    "test": "node test/app",
+    "build": "npm init"
   },
   "dependencies": {
     "clone": "^1.0.2",
@@ -33,13 +34,16 @@
     "tape": "^4.5.1",
     "underscore": ">=1.12.1"
   },
-  "scripts": {
-    "start": "node app.js",
-    "test": "node test/app",
-    "build": "npm init"
-  },
   "engines": {
     "node": "7.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janaipakos/ghibliapi/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
